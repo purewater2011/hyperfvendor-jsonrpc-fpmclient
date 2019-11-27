@@ -1,0 +1,31 @@
+{
+    "name": "hyperf-vendor/hyperf-rpc-fpmclient",
+    "type": "library",
+    "license": "MIT",
+    "description": "hyperf json rpc is used in php-fpm",
+    "keywords": [
+        "php",
+        "hyperf",
+        "swoole"
+    ],
+    "authors": [
+        {
+            "name": "Eric.chen",
+            "email": "chenyong@chelun.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HyperfVendor\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "ext-swoole": ">=4.4",
+        "hyperf/utils": "^1.1@dev"
+    },
+    "require-dev": {
+        "swoft/swoole-ide-helper": "^4.4"
+    }
+}
